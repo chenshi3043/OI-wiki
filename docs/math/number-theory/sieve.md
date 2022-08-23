@@ -1,4 +1,4 @@
-author: inkydragon, TravorLZH, YOYO-UIAT, wood3, shuzhouliu
+author: inkydragon, TravorLZH, YOYO-UIAT, wood3, shuzhouliu, chenshi3043
 
 ## 素数筛法
 
@@ -310,7 +310,7 @@ def pre():
 $$
 \mu(n)=
 \begin{cases}
-	0 & n' \bmod p_1 \neq 0\\\\
+	0 & n' \bmod p_1 = 0\\\\
 	-\mu(n') & \text{otherwise}
 \end{cases}
 $$
